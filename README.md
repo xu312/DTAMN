@@ -34,7 +34,7 @@ Supported datasets: `PEMS04`, `PEMS07`, `PEMS08`, `PEMS07(M)`, `PEMS07(L)`, `NYC
 For example:
 
 ```bash
-python run.py --dataset NYCTaxi --mode train --device cuda:0
+python run.py --dataset PEMS08 --mode train --device cuda:0
 ```
 
 Adjust hyperparameters in `config_file/<dataset>_DTAMN.conf`. Logs and checkpoints are saved to `experiments/<dataset>/<timestamp>/`.
